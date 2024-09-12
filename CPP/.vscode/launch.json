@@ -2,17 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C/C++: g++.exe build and debug active file",
+            "name": "g++.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe", // Path to your compiled program
+            "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": false,
+            "externalConsole": true,  // Set to true to open an external terminal for output
             "MIMode": "gdb",
-            "miDebuggerPath": "H:\\DevC++\\Dev-Cpp\\MinGW64\\bin\\gdb.exe", // Ensure this is the correct path to gdb
+            "miDebuggerPath": "H:/Dev-Cpp/MinGW64/bin/gdb.exe",  // Ensure correct GDB path
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
@@ -20,8 +20,8 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "C/C++: g++.exe build active file", // Ensure the build task is linked
-            "internalConsoleOptions": "openOnSessionStart"
+            "preLaunchTask": "C/C++: g++.exe build active file",
+            "internalConsoleOptions": "neverOpen"  // Avoid internal console for clearer output
         }
     ]
 }
