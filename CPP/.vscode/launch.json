@@ -12,7 +12,7 @@
             "environment": [],
             "externalConsole": true,  // Set to true to open an external terminal for output
             "MIMode": "gdb",
-            "miDebuggerPath": "H:/Dev-Cpp/MinGW64/bin/gdb.exe",  // Ensure correct GDB path
+            "miDebuggerPath": "H:\\CodeBlocks\\MinGW\\bin\\gdb.exe",  // Ensure correct GDB path
             "setupCommands": [
                 {
                     "description": "Enable pretty-printing for gdb",
