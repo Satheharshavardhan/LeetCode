@@ -10,7 +10,7 @@
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
             "environment": [],
-            "externalConsole": true,  // Set to true to open an external terminal for output
+            "externalConsole": false,  // Set to true to open an external terminal for output
             "MIMode": "gdb",
             "miDebuggerPath": "H:\\CodeBlocks\\MinGW\\bin\\gdb.exe",  // Ensure correct GDB path
             "setupCommands": [

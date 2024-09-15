@@ -60,6 +60,6 @@ int main()
     for (const auto &num : nums)
     {
         cout << num << " ";
-    }
+    }   
     return 0;
 }
