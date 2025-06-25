@@ -6,7 +6,7 @@ using namespace std;
 
 long long kthSmallestProduct(vector<int> &nums1, vector<int> &nums2, long long k)
 {
-    // Brute-Force approach
+    // Brute-Force approach (worked but not able to submit)
     vector<long long> products;
     for (int i = 0; i < nums1.size(); i++)
     {
