@@ -10,4 +10,4 @@ def solution66(digits: List[int]) -> List[int]:
 
 
 if __name__ == "__main__":
-    solution66([1, 2, 3])
+    print(solution66([1, 2, 3]))
